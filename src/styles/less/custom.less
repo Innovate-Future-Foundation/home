@@ -1,0 +1,86 @@
+// Core variables
+@primary-color: #1890ff;
+@link-color: #1890ff;
+@success-color: #52c41a;
+@warning-color: #faad14;
+@error-color: #f5222d;
+
+// Animation
+@ease-out: cubic-bezier(0.215, 0.61, 0.355, 1);
+@ease-in: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+@ease-in-out: cubic-bezier(0.645, 0.045, 0.355, 1);
+@ease-out-back: cubic-bezier(0.12, 0.4, 0.29, 1.46);
+@ease-in-back: cubic-bezier(0.71, -0.46, 0.88, 0.6);
+@ease-in-out-back: cubic-bezier(0.71, -0.46, 0.29, 1.46);
+@ease-out-circ: cubic-bezier(0.08, 0.82, 0.17, 1);
+@ease-in-circ: cubic-bezier(0.6, 0.04, 0.98, 0.34);
+@ease-in-out-circ: cubic-bezier(0.78, 0.14, 0.15, 0.86);
+@ease-out-quint: cubic-bezier(0.23, 1, 0.32, 1);
+@ease-in-quint: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+@ease-in-out-quint: cubic-bezier(0.86, 0, 0.07, 1);
+
+// Your existing custom variables
+@line-color: #e9e9e9;
+@shadow-color: rgba(0, 0, 0, 0.15);
+@bottom-bar-bg-color: #262626;
+@bottom-bar-line-color: #000;
+@template-bg-color: #001529;
+@template-bg-color-light: #ececec;
+@template-nav-bg-color: #001529;
+@template-text-color: #ccc;
+@template-text-title-color: #bcbcbc;
+@template-text-color-light: #fff;
+@template-footer-text-color: #999;
+@animate-duration: 0.45s;
+
+/* 详细页图片或框框的样式 */
+.page-shadow() {
+  box-shadow: 0 5px 8px @shadow-color;
+}
+
+.page-pro() {
+  border-radius: 6px;
+  border: 1px solid @line-color;
+  transform: translateY(0);
+  transition: transform 0.3s @ease-out, box-shadow 0.3s @ease-out;
+  &:hover {
+    .page-shadow();
+    transform: translateY(-5px);
+  }
+}
+
+// Update your styles to work with Framer Motion
+.mobile-menu {
+  overflow: hidden;
+
+  em {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: #fff;
+    margin: 4px auto;
+  }
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 8px 16px;
+  cursor: pointer;
+
+  &:hover {
+    color: @primary-color;
+  }
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  color: inherit;
+  font-size: inherit;
+
+  &:hover {
+    color: @primary-color;
+  }
+}
