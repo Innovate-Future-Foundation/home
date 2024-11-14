@@ -1,4 +1,11 @@
-import React from "react";
+import { ReactNode } from "react";
+
+export interface Page3Item {
+  title: string;
+  content: ReactNode[];
+  svg: ReactNode;
+  exp?: string | ReactNode;
+}
 
 export const page1 = [
   {
@@ -39,7 +46,7 @@ export const page2 = [
   },
 ];
 
-export const page3 = [
+export const page3: Page3Item[] = [
   {
     title: "个人版",
     content: [

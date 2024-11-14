@@ -1,7 +1,14 @@
-import React from "react";
+import { ReactNode } from "react";
 import { motion } from "framer-motion";
 import { Row, Col } from "antd";
 import { page3 } from "./data";
+
+interface Page3Item {
+  title: string;
+  content: ReactNode[];
+  svg: ReactNode;
+  exp?: string | ReactNode;
+}
 
 export default function Page3() {
   const containerVariants = {
@@ -27,7 +34,9 @@ export default function Page3() {
     },
   };
 
-  const children = page3.map((d, i) => (
+  const data: Page3Item[] = page3;
+
+  const children = data.map((d, i) => (
     <Col span={8} className="col" key={i.toString()}>
       <motion.div
         variants={itemVariants}

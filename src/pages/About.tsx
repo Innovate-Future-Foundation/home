@@ -54,7 +54,7 @@ const About: React.FC<AboutProps> = ({ isMobile, dataSource, ...props }) => {
         transition: {
           duration: 1 + Math.random() * 2,
           repeat: Infinity,
-          repeatType: "reverse",
+          repeatType: "reverse" as const,
         },
       },
     };

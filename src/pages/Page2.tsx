@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import QRCode from "qrcode.react";
 import { Row, Col } from "antd";

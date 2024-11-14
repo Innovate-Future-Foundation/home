@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function BannerImage() {
   return (
     <svg width="510px" height="460px" viewBox="0 0 510 460">

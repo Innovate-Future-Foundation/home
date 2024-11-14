@@ -1,4 +1,3 @@
-import React from "react";
 import logoImage from "../assets/Innovate_Future_logo-white.png";
 import copyrightLogo from "../assets/IFF_logo-white.png";
 
@@ -460,8 +459,15 @@ export const Content110DataSource = {
     ],
   },
   button: {
-    className: "",
-    children: { a: { className: "button", href: "#", children: "立即报名" } },
+    className: "button-wrapper",
+    children: {
+      a: {
+        className: "button",
+        href: "#",
+        children: "立即报名",
+        name: "button",
+      },
+    },
   },
 };
 export const Content120DataSource = {

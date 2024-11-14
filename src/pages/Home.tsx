@@ -43,7 +43,8 @@ const useMediaQuery = (query: string) => {
   return matches;
 };
 
-const { location = {} } = typeof window !== "undefined" ? window : {};
+const { location = {} as Location } =
+  typeof window !== "undefined" ? window : {};
 
 const Home: React.FC = () => {
   const isMobile = useMediaQuery("(max-width: 767px)");
@@ -94,7 +95,6 @@ const Home: React.FC = () => {
       id="Content11_0"
       key="Content11_0"
       dataSource={Content110DataSource}
-      isMobile={isMobile}
     />,
     <Content12
       id="Content12_0"
