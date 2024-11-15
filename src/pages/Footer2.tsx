@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import LinkedInIcon from "../assets/linkedin_icon.png";
 
 const Footer2: React.FC<any> = ({ dataSource, isMobile, ...rest }) => {
   return (
@@ -75,6 +76,27 @@ const Footer2: React.FC<any> = ({ dataSource, isMobile, ...rest }) => {
               item.children
             );
           })}
+
+          <a
+            href="https://www.linkedin.com/company/innovate-future-foundation/?viewAsMember=true"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              marginLeft: "12px",
+            }}
+          >
+            <img
+              src={LinkedInIcon}
+              alt="LinkedIn"
+              style={{
+                height: "20px",
+                width: "auto",
+                filter: "brightness(0) invert(0.6)",
+              }}
+            />
+          </a>
         </div>
       </motion.div>
     </motion.div>

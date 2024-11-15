@@ -89,7 +89,7 @@ const About: React.FC<AboutProps> = ({ isMobile, dataSource, ...props }) => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            style={{ margin: "144px auto 32px" }}
+            style={{ margin: "100px auto 32px" }}
           >
             {dataSource.title}
           </motion.h1>

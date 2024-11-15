@@ -38,7 +38,16 @@ const Banner: React.FC<BannerProps> = ({
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: index * 0.1 }}
         >
-          <Button type="primary" {...itemProps}>
+          <Button
+            type="primary"
+            {...itemProps}
+            onClick={() => {
+              const element = document.getElementById("Content11_0");
+              if (element) {
+                element.scrollIntoView({ behavior: "smooth" });
+              }
+            }}
+          >
             {item.children}
           </Button>
         </motion.div>

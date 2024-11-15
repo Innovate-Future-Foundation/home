@@ -119,7 +119,7 @@ const Home: React.FC = () => {
   return (
     <div className="templates-wrapper" ref={domRef}>
       <Helmet>
-        <title>Innovate Future Foundation</title>
+        <title>Innovate Future Association</title>
       </Helmet>
       {show && children}
     </div>
