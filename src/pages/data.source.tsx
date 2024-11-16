@@ -154,7 +154,7 @@ export const Content80DataSource = {
           title: { className: "content8-title", children: "Johnny Zhao" },
           content: {
             className: "content8-content",
-            children: "公司+职位 @AWS",
+            children: "@AWS",
           },
         },
       },
@@ -173,7 +173,7 @@ export const Content80DataSource = {
           title: { className: "content8-title", children: "Jason Ren" },
           content: {
             className: "content8-content",
-            children: "公司+职位 @AWS",
+            children: "@AWS",
           },
         },
       },
@@ -192,7 +192,7 @@ export const Content80DataSource = {
           title: { className: "content8-title", children: "Dexter Zhang" },
           content: {
             className: "content8-content",
-            children: "公司+职位 @Amazon",
+            children: "@Amazon",
           },
         },
       },
@@ -287,7 +287,7 @@ export const Content90DataSource = {
           "https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg",
         className: "title-image",
       },
-      { name: "title", children: "会议日程", className: "title-h1" },
+      { name: "title", children: "Agenda", className: "title-h1" },
     ],
   },
   block: {
@@ -548,7 +548,7 @@ export const Content110DataSource = {
       },
       {
         name: "content2",
-        children: "现场问诊，为你答疑解难",
+        children: “Ask me anything",
         className: "title-content",
       },
     ],
