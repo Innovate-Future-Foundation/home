@@ -313,7 +313,10 @@ export const Content90DataSource = {
           name: { className: "block-name", children: "" },
           post: { className: "block-post", children: "AWS" },
           time: { className: "block-time", children: "16:30 - 17:00" },
-          title: { className: "block-title", children: "Doors Open, Signing in" },
+          title: {
+            className: "block-title",
+            children: "Doors Open, Signing in",
+          },
           content: { className: "block-content", children: "" },
         },
       },
@@ -362,14 +365,16 @@ export const Content90DataSource = {
             children:
               "https://gw.alipayobjects.com/zos/rmsportal/QviGtUPvTFxdhsTUAacr.svg",
           },
-          name: {className: "block-name", children: "Navi Kaur" },
+          name: { className: "block-name", children: "Navi Kaur" },
           post: { className: "block-post", children: "AWS" },
           time: { className: "block-time", children: "17:30 - 18:00" },
-          title: {className: "block-title", children: "Level 100- mapping to AI certification" },
+          title: {
+            className: "block-title",
+            children: "Level 100- mapping to AI certification",
+          },
           content: {
             className: "block-content",
-            children:
-              "AWS AI Certification roadmap",
+            children: "AWS AI Certification roadmap",
           },
         },
       },
@@ -392,12 +397,14 @@ export const Content90DataSource = {
           },
           name: { className: "block-name", children: "Jason Ren" },
           post: { className: "block-post", children: "BD" },
-          time: {className: "block-time", children: "18:00 - 18:30" },
-          title: { className: "block-title", children: "AWS Startup Program Introduction" },
+          time: { className: "block-time", children: "18:00 - 18:30" },
+          title: {
+            className: "block-title",
+            children: "AWS Startup Program Introduction",
+          },
           content: {
             className: "block-content",
-            children:
-              "",
+            children: "",
           },
         },
       },
@@ -406,8 +413,8 @@ export const Content90DataSource = {
         className: "block-wrapper",
         playScale: 0.3,
         children: {
-          imgWrapper: {className: "image-wrapper"},
-          textWrapper: {className: "text-wrapper"},
+          imgWrapper: { className: "image-wrapper" },
+          textWrapper: { className: "text-wrapper" },
           img: {
             className: "block-img",
             children:
@@ -418,10 +425,13 @@ export const Content90DataSource = {
             children:
               "https://gw.alipayobjects.com/zos/rmsportal/agOOBdKEIJlQhfeYhHJc.svg",
           },
-          name: {className: "block-name", children: ""},
-          post: {className: "block-post", children: "AWS"},
-          time: {className: "block-time", children: "18:30 - 19:00"},
-          title: {className: "block-title", children: "AWS Startup Company Pitch"},
+          name: { className: "block-name", children: "" },
+          post: { className: "block-post", children: "AWS" },
+          time: { className: "block-time", children: "18:30 - 19:00" },
+          title: {
+            className: "block-title",
+            children: "AWS Startup Company Pitch",
+          },
           content: {
             className: "block-content",
             children:
@@ -434,8 +444,8 @@ export const Content90DataSource = {
         className: "block-wrapper",
         playScale: 0.3,
         children: {
-          imgWrapper: {className: "image-wrapper"},
-          textWrapper: {className: "text-wrapper"},
+          imgWrapper: { className: "image-wrapper" },
+          textWrapper: { className: "text-wrapper" },
           img: {
             className: "block-img",
             children:
@@ -446,14 +456,40 @@ export const Content90DataSource = {
             children:
               "https://gw.alipayobjects.com/zos/rmsportal/agOOBdKEIJlQhfeYhHJc.svg",
           },
-          name: {className: "block-name", children: ""},
-          post: {className: "block-post", children: "AWS"},
-          time: {className: "block-time", children: "19:00 - 20:30"},
-          title: {className: "block-title", children: "Networking and Pizza"},
+          name: { className: "block-name", children: "" },
+          post: { className: "block-post", children: "AWS" },
+          time: { className: "block-time", children: "19:00 - 20:30" },
+          title: { className: "block-title", children: "Networking and Pizza" },
           content: {
             className: "block-content",
+            children: "Networking, Music, Pizza",
+          },
+        },
+      },
+      {
+        name: "block4",
+        className: "block-wrapper",
+        playScale: 0.3,
+        children: {
+          imgWrapper: { className: "image-wrapper" },
+          textWrapper: { className: "text-wrapper" },
+          img: {
+            className: "block-img",
             children:
-              "Networking, Music, Pizza",
+              "https://gw.alipayobjects.com/zos/rmsportal/SlFgHDtOTLzccvFrQHLg.png",
+          },
+          icon: {
+            className: "block-icon",
+            children:
+              "https://gw.alipayobjects.com/zos/rmsportal/agOOBdKEIJlQhfeYhHJc.svg",
+          },
+          name: { className: "block-name", children: "" },
+          post: { className: "block-post", children: "AWS" },
+          time: { className: "block-time", children: "20:30 - 21:00" },
+          title: { className: "block-title", children: "Lightning Talks" },
+          content: {
+            className: "block-content",
+            children: "Speaker Lists",
           },
         },
       },
