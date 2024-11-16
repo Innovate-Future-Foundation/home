@@ -489,7 +489,7 @@ export const Content90DataSource = {
           title: { className: "block-title", children: "Lightning Talks" },
           content: {
             className: "block-content",
-            children: "Speaker Lists",
+            children: "Speaker Lists version2",
           },
         },
       },
