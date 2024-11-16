@@ -112,7 +112,7 @@ const About: React.FC<AboutProps> = ({ isMobile, dataSource, ...props }) => {
               color: "rgba(0, 0, 0, 0.85)",
             }}
           >
-            The Innovate Future Foundation (IFF) is dedicated to advancing
+            The Innovate Future Association (IFA) is dedicated to advancing
             professional development and fostering innovation within the
             technology sector.
           </motion.p>

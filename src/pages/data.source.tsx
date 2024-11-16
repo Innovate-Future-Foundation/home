@@ -84,7 +84,7 @@ export const Banner30DataSource = {
       {
         name: "slogan",
         className: "banner3-slogan",
-        children: "AWS GenAI professional development",
+        children: "AWS GenAI Professional Development",
         texty: true,
       },
       {
@@ -208,10 +208,10 @@ export const Content80DataSource = {
             children:
               "https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png",
           },
-          title: { className: "content8-title", children: "Jack" },
+          title: { className: "content8-title", children: "Chuhao Liu" },
           content: {
             className: "content8-content",
-            children: "公司+职位 信息暂缺",
+            children: "Sunflower AI",
           },
         },
       },
@@ -227,10 +227,10 @@ export const Content80DataSource = {
             children:
               "https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png",
           },
-          title: { className: "content8-title", children: "Jack" },
+          title: { className: "content8-title", children: "Shawn" },
           content: {
             className: "content8-content",
-            children: "公司+职位 信息暂缺",
+            children: "Bookwell AI",
           },
         },
       },
@@ -246,10 +246,10 @@ export const Content80DataSource = {
             children:
               "https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png",
           },
-          title: { className: "content8-title", children: "Jack" },
+          title: { className: "content8-title", children: "Kris" },
           content: {
             className: "content8-content",
-            children: "公司+职位 信息暂缺",
+            children: "Beequant AI",
           },
         },
       },
@@ -265,10 +265,10 @@ export const Content80DataSource = {
             children:
               "https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png",
           },
-          title: { className: "content8-title", children: "Jack" },
+          title: { className: "content8-title", children: "Daniel" },
           content: {
             className: "content8-content",
-            children: "公司+职位 信息暂缺",
+            children: "Revelance AI",
           },
         },
       },
@@ -310,10 +310,10 @@ export const Content90DataSource = {
             children:
               "https://gw.alipayobjects.com/zos/rmsportal/qJnGrvjXPxdKETlVSrbe.svg",
           },
-          name: { className: "block-name", children: "姓名" },
-          post: { className: "block-post", children: "公司 职位" },
-          time: { className: "block-time", children: "09:00 - 10:00" },
-          title: { className: "block-title", children: "开幕致辞" },
+          name: { className: "block-name", children: "" },
+          post: { className: "block-post", children: "AWS" },
+          time: { className: "block-time", children: "16:30 - 17:00" },
+          title: { className: "block-title", children: "Doors Open, Signing in" },
           content: { className: "block-content", children: "" },
         },
       },
@@ -334,14 +334,14 @@ export const Content90DataSource = {
             children:
               "https://gw.alipayobjects.com/zos/rmsportal/QviGtUPvTFxdhsTUAacr.svg",
           },
-          name: { className: "block-name", children: "姓名" },
-          post: { className: "block-post", children: "公司 职位" },
-          time: { className: "block-time", children: "09:00 - 10:00" },
-          title: { className: "block-title", children: "演示标题 - XYZ" },
+          name: { className: "block-name", children: "" },
+          post: { className: "block-post", children: "AWS" },
+          time: { className: "block-time", children: "17:00 - 17:30" },
+          title: { className: "block-title", children: "Opening Notes" },
           content: {
             className: "block-content",
             children:
-              "经过近 3 年的打磨，在助力中台产品研发效能提升的目标之上，包含设计语言、UI 资产、可视化以及产品体验相关的蚂蚁中台设计体系正在逐步成型。此次分享包含两部分，在介绍蚂蚁设计体系的同时，也会和大家分享我们在设计语言的部分探索。",
+              "This initiative will connect AWS with emerging talent, emphasizing AWS’s community-focused role and leadership in technology. By featuring AWS’s GenAI stack, cloud technologies, and the AWS Startup program, this series highlights AWS’s dedication to innovation, diversity, and inclusion, specifically supporting the Asian community in tech.",
           },
         },
       },
@@ -362,14 +362,14 @@ export const Content90DataSource = {
             children:
               "https://gw.alipayobjects.com/zos/rmsportal/QviGtUPvTFxdhsTUAacr.svg",
           },
-          name: { className: "block-name", children: "姓名" },
-          post: { className: "block-post", children: "公司 职位" },
-          time: { className: "block-time", children: "09:00 - 10:00" },
-          title: { className: "block-title", children: "演示标题 - XYZ" },
+          name: {className: "block-name", children: "Navi Kaur" },
+          post: { className: "block-post", children: "AWS" },
+          time: { className: "block-time", children: "17:30 - 18:00" },
+          title: {className: "block-title", children: "Level 100- mapping to AI certification" },
           content: {
             className: "block-content",
             children:
-              "经过近 3 年的打磨，在助力中台产品研发效能提升的目标之上，包含设计语言、UI 资产、可视化以及产品体验相关的蚂蚁中台设计体系正在逐步成型。此次分享包含两部分，在介绍蚂蚁设计体系的同时，也会和大家分享我们在设计语言的部分探索。",
+              "AWS AI Certification roadmap",
           },
         },
       },
@@ -390,14 +390,70 @@ export const Content90DataSource = {
             children:
               "https://gw.alipayobjects.com/zos/rmsportal/agOOBdKEIJlQhfeYhHJc.svg",
           },
-          name: { className: "block-name", children: "姓名" },
-          post: { className: "block-post", children: "公司 职位" },
-          time: { className: "block-time", children: "09:00 - 10:00" },
-          title: { className: "block-title", children: "演示标题 - XYZ" },
+          name: { className: "block-name", children: "Jason Ren" },
+          post: { className: "block-post", children: "BD" },
+          time: {className: "block-time", children: "18:00 - 18:30" },
+          title: { className: "block-title", children: "AWS Startup Program Introduction" },
           content: {
             className: "block-content",
             children:
-              "经过近 3 年的打磨，在助力中台产品研发效能提升的目标之上，包含设计语言、UI 资产、可视化以及产品体验相关的蚂蚁中台设计体系正在逐步成型。此次分享包含两部分，在介绍蚂蚁设计体系的同时，也会和大家分享我们在设计语言的部分探索。",
+              "",
+          },
+        },
+      },
+      {
+        name: "block3",
+        className: "block-wrapper",
+        playScale: 0.3,
+        children: {
+          imgWrapper: {className: "image-wrapper"},
+          textWrapper: {className: "text-wrapper"},
+          img: {
+            className: "block-img",
+            children:
+              "https://gw.alipayobjects.com/zos/rmsportal/SlFgHDtOTLzccvFrQHLg.png",
+          },
+          icon: {
+            className: "block-icon",
+            children:
+              "https://gw.alipayobjects.com/zos/rmsportal/agOOBdKEIJlQhfeYhHJc.svg",
+          },
+          name: {className: "block-name", children: ""},
+          post: {className: "block-post", children: "AWS"},
+          time: {className: "block-time", children: "18:30 - 19:00"},
+          title: {className: "block-title", children: "AWS Startup Company Pitch"},
+          content: {
+            className: "block-content",
+            children:
+              "Sunflower AI, BookWell AI, Innov AI Solutions, Relevance AI, Beequant AI",
+          },
+        },
+      },
+      {
+        name: "block3",
+        className: "block-wrapper",
+        playScale: 0.3,
+        children: {
+          imgWrapper: {className: "image-wrapper"},
+          textWrapper: {className: "text-wrapper"},
+          img: {
+            className: "block-img",
+            children:
+              "https://gw.alipayobjects.com/zos/rmsportal/SlFgHDtOTLzccvFrQHLg.png",
+          },
+          icon: {
+            className: "block-icon",
+            children:
+              "https://gw.alipayobjects.com/zos/rmsportal/agOOBdKEIJlQhfeYhHJc.svg",
+          },
+          name: {className: "block-name", children: ""},
+          post: {className: "block-post", children: "AWS"},
+          time: {className: "block-time", children: "19:00 - 20:30"},
+          title: {className: "block-title", children: "Networking and Pizza"},
+          content: {
+            className: "block-content",
+            children:
+              "Networking, Music, Pizza",
           },
         },
       },
@@ -447,11 +503,11 @@ export const Content110DataSource = {
           "https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg",
         className: "title-image",
       },
-      { name: "title", children: "丰富的特色展台", className: "title-h1" },
+      { name: "title", children: "Sign up here", className: "title-h1" },
       {
         name: "content",
         children:
-          "特色展台包括 Ant Design 、AntV、AntG、Egg 等明星产品，更有产品专家",
+          "Reserve your spot today and celebrate the end of 2024 with a glimpse into the future of AI and cloud technology",
         className: "title-content",
       },
       {
