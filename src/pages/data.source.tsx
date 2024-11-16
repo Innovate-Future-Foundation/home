@@ -1,6 +1,8 @@
-import React from "react";
 import logoImage from "../assets/Innovate_Future_logo-white.png";
 import copyrightLogo from "../assets/IFF_logo-white.png";
+import aaitLogo from "../assets/AAIT_logo.png";
+import awsStartupLogo from "../assets/AWS_startups_logo.png";
+import awsLogo from "../assets/AWS_logo.png";
 
 export const Nav20DataSource = {
   isScrollLink: true,
@@ -82,19 +84,19 @@ export const Banner30DataSource = {
       {
         name: "slogan",
         className: "banner3-slogan",
-        children: "首届蚂蚁金服体验科技大会",
+        children: "AWS GenAI professional development",
         texty: true,
       },
       {
         name: "name",
         className: "banner3-name",
-        children: "探索极致用户体验与最佳工程实践探索",
+        children: "Empowering Innovation, Shaping the Future",
       },
-      { name: "button", className: "banner3-button", children: "立即报名" },
+      { name: "button", className: "banner3-button", children: "Register Now" },
       {
         name: "time",
         className: "banner3-time",
-        children: "2018.01.06 / 中国·杭州",
+        children: "06.12.2024 / Sydney, Australia",
       },
     ],
   },
@@ -112,7 +114,7 @@ export const Content80DataSource = {
           "https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg",
         className: "title-image",
       },
-      { name: "title", children: "特邀嘉宾", className: "title-h1" },
+      { name: "title", children: "Speaker Showcase", className: "title-h1" },
     ],
   },
   block: {
@@ -130,10 +132,10 @@ export const Content80DataSource = {
             children:
               "https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png",
           },
-          title: { className: "content8-title", children: "Jack" },
+          title: { className: "content8-title", children: "Navi Kaur" },
           content: {
             className: "content8-content",
-            children: "公司+职位 信息暂缺",
+            children: "Tech Leader @Amazon",
           },
         },
       },
@@ -149,10 +151,10 @@ export const Content80DataSource = {
             children:
               "https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png",
           },
-          title: { className: "content8-title", children: "Jack" },
+          title: { className: "content8-title", children: "Johnny Zhao" },
           content: {
             className: "content8-content",
-            children: "公司+职位 信息暂缺",
+            children: "公司+职位 @AWS",
           },
         },
       },
@@ -168,10 +170,10 @@ export const Content80DataSource = {
             children:
               "https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png",
           },
-          title: { className: "content8-title", children: "Jack" },
+          title: { className: "content8-title", children: "Jason Ren" },
           content: {
             className: "content8-content",
-            children: "公司+职位 信息暂缺",
+            children: "公司+职位 @AWS",
           },
         },
       },
@@ -187,10 +189,10 @@ export const Content80DataSource = {
             children:
               "https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png",
           },
-          title: { className: "content8-title", children: "Jack" },
+          title: { className: "content8-title", children: "Dexter Zhang" },
           content: {
             className: "content8-content",
-            children: "公司+职位 信息暂缺",
+            children: "公司+职位 @Amazon",
           },
         },
       },
@@ -423,9 +425,9 @@ export const Content100DataSource = {
         children: "https://maps.app.goo.gl/dVJxuwYMU3UqBMgc6",
         name: "跳转地址",
       },
-      title: { children: "大会地址", name: "弹框标题" },
+      title: { children: "Location", name: "弹框标题" },
       content: {
-        children: "蚂蚁 Z 空间  浙江省杭州市西湖区西溪路556号",
+        children: "Amazon Office, Sydney",
         name: "弹框内容",
       },
     },
@@ -460,8 +462,16 @@ export const Content110DataSource = {
     ],
   },
   button: {
-    className: "",
-    children: { a: { className: "button", href: "#", children: "立即报名" } },
+    className: "button-wrapper",
+    children: {
+      a: {
+        className: "button",
+        href: "https://jiangren.com.au/events/6728737dabe9440012e505bc",
+        children: "Sign Up Now",
+        name: "button",
+        target: "_blank",
+      },
+    },
   },
 };
 export const Content120DataSource = {
@@ -477,7 +487,7 @@ export const Content120DataSource = {
           "https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg",
         className: "title-image",
       },
-      { name: "title", children: "特别鸣谢", className: "title-h1" },
+      { name: "title", children: "Partners", className: "title-h1" },
     ],
   },
   block: {
@@ -491,8 +501,7 @@ export const Content120DataSource = {
         children: {
           wrapper: { className: "block-content" },
           img: {
-            children:
-              "https://gw.alipayobjects.com/zos/rmsportal/TFicUVisNHTOEeMYXuQF.svg",
+            children: aaitLogo,
           },
         },
       },
@@ -504,8 +513,7 @@ export const Content120DataSource = {
         children: {
           wrapper: { className: "block-content" },
           img: {
-            children:
-              "https://gw.alipayobjects.com/zos/rmsportal/hkLGkrlCEkGZeMQlnEkD.svg",
+            children: awsStartupLogo,
           },
         },
       },
@@ -517,8 +525,7 @@ export const Content120DataSource = {
         children: {
           wrapper: { className: "block-content" },
           img: {
-            children:
-              "https://gw.alipayobjects.com/zos/rmsportal/bqyPRSZmhvrsfJrBvASi.svg",
+            children: awsLogo,
           },
         },
       },
@@ -577,7 +584,7 @@ export const Footer20DataSource = {
       },
       {
         name: "group",
-        children: "Innovate Future Foundation",
+        children: "Innovate Future Association",
         className: "copyright-group",
       },
       {
@@ -588,14 +595,14 @@ export const Footer20DataSource = {
       },
       {
         name: "copyright",
-        children: "Copyright © Innovate Future Foundation",
+        children: "Copyright © Innovate Future Association",
         className: "copyright-text",
       },
     ],
   },
 };
 export const AboutDataSource = {
-  title: "Innovate Future Foundation",
+  title: "Innovate Future Association",
   children: [
     {
       title: "Professional Development",

@@ -2,7 +2,30 @@ import React, { useRef, useEffect, useState } from "react";
 import { Row, Col } from "antd";
 import { TweenOneGroup } from "rc-tween-one";
 
-const Content12: React.FC = (props: any) => {
+interface Content12Props {
+  id?: string;
+  key: string;
+  dataSource: {
+    wrapper: { className: string };
+    page: { className: string };
+    OverPack: {
+      playScale: number;
+      className: string;
+    };
+    titleWrapper: {
+      className: string;
+      children: {
+        name: string;
+        children: string;
+        className: string;
+      }[];
+    };
+    block: any;
+  };
+  isMobile?: boolean;
+}
+
+const Content12: React.FC<Content12Props> = ({ dataSource }) => {
   const [isVisible, setIsVisible] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -45,16 +68,14 @@ const Content12: React.FC = (props: any) => {
       .filter(Boolean);
   };
 
-  const { dataSource, isMobile, ...restProps } = props;
   const childrenToRender = dataSource?.block?.children
     ? getChildrenToRender(dataSource.block.children)
     : null;
 
-  const { isMobile: wrapperMobile, ...wrapperProps } =
-    dataSource?.wrapper || {};
+  const { ...wrapperProps } = dataSource?.wrapper || {};
 
   return (
-    <div {...restProps} {...wrapperProps}>
+    <div {...wrapperProps}>
       <div {...dataSource?.page}>
         <div key="title" {...dataSource?.titleWrapper}>
           {dataSource?.titleWrapper?.children?.map((item: any) => {
@@ -74,7 +95,7 @@ const Content12: React.FC = (props: any) => {
         </div>
         <div
           ref={containerRef}
-          className={`content-template ${restProps.className || ""}`}
+          className={`content-template ${wrapperProps.className || ""}`}
         >
           <TweenOneGroup
             component={Row}

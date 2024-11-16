@@ -1,4 +1,3 @@
-import React from "react";
 import { footer } from "./data";
 import logoImage from "../assets/Innovate_Future_logo-white.png";
 

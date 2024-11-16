@@ -4,7 +4,10 @@ import { Button } from "antd";
 import { getChildrenToRender } from "./utils";
 
 interface ContentItem {
-  children?: ReactNode;
+  name: string;
+  children: ReactNode;
+  className?: string;
+  href?: string;
   [key: string]: any;
 }
 
@@ -19,13 +22,13 @@ interface Content11Props {
       };
     };
   };
-  isMobile?: boolean;
-  [key: string]: any;
+  className?: string;
+  id?: string;
+  style?: React.CSSProperties;
 }
 
 const Content11: React.FC<Content11Props> = ({
   dataSource,
-  isMobile,
   className,
   id,
   style,
