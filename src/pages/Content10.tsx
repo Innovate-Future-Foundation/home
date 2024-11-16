@@ -5,7 +5,8 @@ const Content10: React.FC<any> = ({ dataSource, isMobile, ...props }) => {
   const [showInfo, setShowInfo] = useState(isMobile);
 
   // Use the direct embed URL from Google Maps
-  const mapEmbedUrl = "https://www.google.com/maps/place/Amazon+Web+Services+Australia+Pty.+Ltd./@-33.8716828,151.2046063,18z/data=!3m1!5s0x6b12ae3e666166e3:0x6af5fe6b4faecf25!4m10!1m2!2m1!1samazon+2+park+st!3m6!1s0x6b12ae3e636797e7:0x429e42deec6fa6ad!8m2!3d-33.8727748!4d151.2076501!15sChBhbWF6b24gMiBwYXJrIHN0IgOIAQGSARBjb3Jwb3JhdGVfb2ZmaWNl4AEA!16s%2Fg%2F11dx9j6c6_?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D";
+  const mapEmbedUrl =
+    "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1656.3488119552474!2d151.2046063!3d-33.8716828!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae3e636797e7%3A0x429e42deec6fa6ad!2sAmazon%20Web%20Services%20Australia%20Pty.%20Ltd.!5e0!3m2!1sen!2sau!4v1731745401271!5m2!1sen!2sau";
 
   const onClick = () => {
     window.open("https://maps.app.goo.gl/dVJxuwYMU3UqBMgc6");
