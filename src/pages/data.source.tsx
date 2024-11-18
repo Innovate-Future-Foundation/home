@@ -79,12 +79,12 @@ export const Banner30DataSource = {
       {
         name: "nameEn",
         className: "banner3-name-en",
-        children: "Seeking Experience & Engineering Conference",
+        children: "Jumpstart Your Cloud Technology and GenAI Journey",
       },
       {
         name: "slogan",
         className: "banner3-slogan",
-        children: "AWS GenAI Professional Development",
+        children: "Generative AI Professional Development",
         texty: true,
       },
       {
@@ -96,7 +96,7 @@ export const Banner30DataSource = {
       {
         name: "time",
         className: "banner3-time",
-        children: "06.12.2024 / Sydney, Australia",
+        children: "2024-12-06 / Sydney, Australia",
       },
     ],
   },
@@ -130,7 +130,7 @@ export const Content80DataSource = {
           img: {
             className: "content8-img",
             children:
-              "https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png",
+              "src/assets/navi.jpg",
           },
           title: { className: "content8-title", children: "Navi Kaur" },
           content: {
@@ -149,7 +149,7 @@ export const Content80DataSource = {
           img: {
             className: "content8-img",
             children:
-              "https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png",
+              "src/assets/johhny.jpg",
           },
           title: { className: "content8-title", children: "Johnny Zhao" },
           content: {
@@ -168,7 +168,7 @@ export const Content80DataSource = {
           img: {
             className: "content8-img",
             children:
-              "https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png",
+              "src/assets/jason.pic.jpg",
           },
           title: { className: "content8-title", children: "Jason Ren" },
           content: {
@@ -187,12 +187,12 @@ export const Content80DataSource = {
           img: {
             className: "content8-img",
             children:
-              "https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png",
+              "src/assets/Molsleha.jpg",
           },
-          title: { className: "content8-title", children: "Dexter Zhang" },
+          title: { className: "content8-title", children: "Mosleha Sadaf" },
           content: {
             className: "content8-content",
-            children: "@Amazon",
+            children: "@Supreme Court of NSW",
           },
         },
       },
@@ -206,7 +206,7 @@ export const Content80DataSource = {
           img: {
             className: "content8-img",
             children:
-              "https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png",
+              "src/assets/sunflower.jpg",
           },
           title: { className: "content8-title", children: "Chuhao Liu" },
           content: {
@@ -225,9 +225,9 @@ export const Content80DataSource = {
           img: {
             className: "content8-img",
             children:
-              "https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png",
+              "src/assets/ shawnYang.jpg",
           },
-          title: { className: "content8-title", children: "Shawn" },
+          title: { className: "content8-title", children: "Shawn Yang" },
           content: {
             className: "content8-content",
             children: "Bookwell AI",
@@ -244,7 +244,7 @@ export const Content80DataSource = {
           img: {
             className: "content8-img",
             children:
-              "https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png",
+              "src/assets/kris.jpg",
           },
           title: { className: "content8-title", children: "Kris" },
           content: {
@@ -265,10 +265,10 @@ export const Content80DataSource = {
             children:
               "https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png",
           },
-          title: { className: "content8-title", children: "Daniel" },
+          title: { className: "content8-title", children: "JobpinAI" },
           content: {
             className: "content8-content",
-            children: "Revelance AI",
+            children: "Jobpin AI",
           },
         },
       },
@@ -383,6 +383,33 @@ export const Content90DataSource = {
         className: "block-wrapper",
         playScale: 0.3,
         children: {
+          imgWrapper: {className: "image-wrapper"},
+          textWrapper: {className: "text-wrapper"},
+          img: {
+            className: "block-img",
+            children:
+              "https://gw.alipayobjects.com/zos/rmsportal/SlFgHDtOTLzccvFrQHLg.png",
+          },
+          icon: {
+            className: "block-icon",
+            children:
+              "https://gw.alipayobjects.com/zos/rmsportal/agOOBdKEIJlQhfeYhHJc.svg",
+          },
+          name: {className: "block-name", children: ""},
+          post: {className: "block-post", children: "Moslena Sadaf"},
+          time: {className: "block-time", children: "18:00 - 18:15"},
+          title: {className: "block-title", children: "Diversity Equity and Inclusion"},
+          content: {
+            className: "block-content",
+            children: "Networking, Music, Pizza",
+          },
+        },
+      },
+      {
+        name: "block3",
+        className: "block-wrapper",
+        playScale: 0.3,
+        children: {
           imgWrapper: { className: "image-wrapper" },
           textWrapper: { className: "text-wrapper" },
           img: {
@@ -489,7 +516,7 @@ export const Content90DataSource = {
           title: { className: "block-title", children: "Lightning Talks" },
           content: {
             className: "block-content",
-            children: "Speaker Lists version2",
+            children: "",
           },
         },
       },
