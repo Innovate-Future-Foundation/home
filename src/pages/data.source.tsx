@@ -10,6 +10,10 @@ import speakerMolsleha from "../assets/Molsleha.jpg";
 import speakerSunflower from "../assets/sunflower.jpg";
 import speakerShawn from "../assets/shawnYang.jpg";
 import speakerKris from "../assets/kris.jpg";
+import speakerJobpinai from "../assets/jobpin-logo.svg";
+import speakerDex from "../assets/dex.jpeg";
+import speakerKaifi from "../assets/kaifi.jpg";
+
 
 export const Nav20DataSource = {
   isScrollLink: true,
@@ -262,10 +266,84 @@ export const Content80DataSource = {
           className: "content8-block",
           img: {
             className: "content8-img",
+            children: speakerJobpinai,
+          },
+          title: { className: "content8-title", children: "JobpinAI" },
+          content: {
+            className: "content8-content",
+            children: "Jobpin AI",
+          },
+        },
+      },
+      {
+        name: "block8",
+        md: 6,
+        xs: 24,
+        className: "content8-block-wrapper",
+        children: {
+          className: "content8-block",
+          img: {
+            className: "content8-img",
+            children:
+              speakerKaifi,
+          },
+          title: {className: "content8-title", children: "Kaifi Hasibul"},
+          content: {
+            className: "content8-content",
+            children: "Cognizant",
+          },
+        },
+      },
+      {
+        name: "block9",
+        md: 6,
+        xs: 24,
+        className: "content8-block-wrapper",
+        children: {
+          className: "content8-block",
+          img: {
+            className: "content8-img",
+            children:
+              speakerDex,
+          },
+          title: {className: "content8-title", children: "Dexter Zhang"},
+          content: {
+            className: "content8-content",
+            children: "Amazon",
+          },
+        },
+      },
+      {
+        name: "block10",
+        md: 6,
+        xs: 24,
+        className: "content8-block-wrapper",
+        children: {
+          className: "content8-block",
+          img: {
+            className: "content8-img",
+            children: "https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png",
+          },
+          title: {className: "content8-title", children: "JobpinAI"},
+          content: {
+            className: "content8-content",
+            children: "Jobpin AI",
+          },
+        },
+      },
+      {
+        name: "block11",
+        md: 6,
+        xs: 24,
+        className: "content8-block-wrapper",
+        children: {
+          className: "content8-block",
+          img: {
+            className: "content8-img",
             children:
               "https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png",
           },
-          title: { className: "content8-title", children: "JobpinAI" },
+          title: {className: "content8-title", children: "JobpinAI"},
           content: {
             className: "content8-content",
             children: "Jobpin AI",
@@ -370,7 +448,7 @@ export const Content90DataSource = {
           time: { className: "block-time", children: "17:30 - 18:00" },
           title: {
             className: "block-title",
-            children: "Level 100- mapping to AI certification",
+            children: "Level 100- Mapping to AI certification",
           },
           content: {
             className: "block-content",
@@ -426,7 +504,7 @@ export const Content90DataSource = {
               "https://gw.alipayobjects.com/zos/rmsportal/agOOBdKEIJlQhfeYhHJc.svg",
           },
           name: { className: "block-name", children: "Jason Ren" },
-          post: { className: "block-post", children: "BD" },
+          post: { className: "block-post", children: "Business Development" },
           time: { className: "block-time", children: "18:00 - 18:30" },
           title: {
             className: "block-title",
@@ -456,8 +534,70 @@ export const Content90DataSource = {
               "https://gw.alipayobjects.com/zos/rmsportal/agOOBdKEIJlQhfeYhHJc.svg",
           },
           name: { className: "block-name", children: "" },
-          post: { className: "block-post", children: "AWS" },
+          post: { className: "block-post", children: "AWS Start-up" },
           time: { className: "block-time", children: "18:30 - 19:00" },
+          title: {
+            className: "block-title",
+            children: "AWS Startup Company Pitch",
+          },
+          content: {
+            className: "block-content",
+            children:
+              "Sunflower AI, BookWell AI, Innov AI Solutions, Relevance AI, Beequant AI",
+          },
+        },
+      },
+      {
+        name: "block3",
+        className: "block-wrapper",
+        playScale: 0.3,
+        children: {
+          imgWrapper: {className: "image-wrapper"},
+          textWrapper: {className: "text-wrapper"},
+          img: {
+            className: "block-img",
+            children:
+              "https://gw.alipayobjects.com/zos/rmsportal/SlFgHDtOTLzccvFrQHLg.png",
+          },
+          icon: {
+            className: "block-icon",
+            children:
+              "https://gw.alipayobjects.com/zos/rmsportal/agOOBdKEIJlQhfeYhHJc.svg",
+          },
+          name: {className: "block-name", children: ""},
+          post: {className: "block-post", children: "Kaifi Hasibul"},
+          time: {className: "block-time", children: "18:30 - 19:00"},
+          title: {
+            className: "block-title",
+            children: "Agile methodology for developing in cloud technology ",
+          },
+          content: {
+            className: "block-content",
+            children:
+              "agile methodologies to develop web applications within a cloud computing environment, allowing for rapid iteration, continuous feedback, and flexible adaptation to changing requirements",
+          },
+        },
+      },
+      {
+        name: "block3",
+        className: "block-wrapper",
+        playScale: 0.3,
+        children: {
+          imgWrapper: {className: "image-wrapper"},
+          textWrapper: {className: "text-wrapper"},
+          img: {
+            className: "block-img",
+            children:
+              "https://gw.alipayobjects.com/zos/rmsportal/SlFgHDtOTLzccvFrQHLg.png",
+          },
+          icon: {
+            className: "block-icon",
+            children:
+              "https://gw.alipayobjects.com/zos/rmsportal/agOOBdKEIJlQhfeYhHJc.svg",
+          },
+          name: {className: "block-name", children: ""},
+          post: {className: "block-post", children: "AWS Start-up"},
+          time: {className: "block-time", children: "18:30 - 19:00"},
           title: {
             className: "block-title",
             children: "AWS Startup Company Pitch",
@@ -515,8 +655,8 @@ export const Content90DataSource = {
           },
           name: { className: "block-name", children: "" },
           post: { className: "block-post", children: "AWS" },
-          time: { className: "block-time", children: "20:30 - 21:00" },
-          title: { className: "block-title", children: "Lightning Talks" },
+          time: { className: "block-time", children: "20:30 - 20:45" },
+          title: { className: "block-title", children: "Wrapping up" },
           content: {
             className: "block-content",
             children: "",
