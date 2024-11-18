@@ -3,6 +3,13 @@ import copyrightLogo from "../assets/IFF_logo-white.png";
 import aaitLogo from "../assets/AAIT_logo.png";
 import awsStartupLogo from "../assets/AWS_startups_logo.png";
 import awsLogo from "../assets/AWS_logo.png";
+import speakerNavi from "../assets/navi.jpg";
+import speakerJohnny from "../assets/johhny.jpg";
+import speakerJason from "../assets/jason.pic.jpg";
+import speakerMolsleha from "../assets/Molsleha.jpg";
+import speakerSunflower from "../assets/sunflower.jpg";
+import speakerShawn from "../assets/shawnYang.jpg";
+import speakerKris from "../assets/kris.jpg";
 
 export const Nav20DataSource = {
   isScrollLink: true,
@@ -129,8 +136,7 @@ export const Content80DataSource = {
           className: "content8-block",
           img: {
             className: "content8-img",
-            children:
-              "src/assets/navi.jpg",
+            children: speakerNavi,
           },
           title: { className: "content8-title", children: "Navi Kaur" },
           content: {
@@ -148,8 +154,7 @@ export const Content80DataSource = {
           className: "content8-block",
           img: {
             className: "content8-img",
-            children:
-              "src/assets/johhny.jpg",
+            children: speakerJohnny,
           },
           title: { className: "content8-title", children: "Johnny Zhao" },
           content: {
@@ -167,8 +172,7 @@ export const Content80DataSource = {
           className: "content8-block",
           img: {
             className: "content8-img",
-            children:
-              "src/assets/jason.pic.jpg",
+            children: speakerJason,
           },
           title: { className: "content8-title", children: "Jason Ren" },
           content: {
@@ -186,8 +190,7 @@ export const Content80DataSource = {
           className: "content8-block",
           img: {
             className: "content8-img",
-            children:
-              "src/assets/Molsleha.jpg",
+            children: speakerMolsleha,
           },
           title: { className: "content8-title", children: "Mosleha Sadaf" },
           content: {
@@ -205,8 +208,7 @@ export const Content80DataSource = {
           className: "content8-block",
           img: {
             className: "content8-img",
-            children:
-              "src/assets/sunflower.jpg",
+            children: speakerSunflower,
           },
           title: { className: "content8-title", children: "Chuhao Liu" },
           content: {
@@ -224,8 +226,7 @@ export const Content80DataSource = {
           className: "content8-block",
           img: {
             className: "content8-img",
-            children:
-              "src/assets/ shawnYang.jpg",
+            children: speakerShawn,
           },
           title: { className: "content8-title", children: "Shawn Yang" },
           content: {
@@ -243,8 +244,7 @@ export const Content80DataSource = {
           className: "content8-block",
           img: {
             className: "content8-img",
-            children:
-              "src/assets/kris.jpg",
+            children: speakerKris,
           },
           title: { className: "content8-title", children: "Kris" },
           content: {
@@ -383,8 +383,8 @@ export const Content90DataSource = {
         className: "block-wrapper",
         playScale: 0.3,
         children: {
-          imgWrapper: {className: "image-wrapper"},
-          textWrapper: {className: "text-wrapper"},
+          imgWrapper: { className: "image-wrapper" },
+          textWrapper: { className: "text-wrapper" },
           img: {
             className: "block-img",
             children:
@@ -395,10 +395,13 @@ export const Content90DataSource = {
             children:
               "https://gw.alipayobjects.com/zos/rmsportal/agOOBdKEIJlQhfeYhHJc.svg",
           },
-          name: {className: "block-name", children: ""},
-          post: {className: "block-post", children: "Moslena Sadaf"},
-          time: {className: "block-time", children: "18:00 - 18:15"},
-          title: {className: "block-title", children: "Diversity Equity and Inclusion"},
+          name: { className: "block-name", children: "" },
+          post: { className: "block-post", children: "Moslena Sadaf" },
+          time: { className: "block-time", children: "18:00 - 18:15" },
+          title: {
+            className: "block-title",
+            children: "Diversity Equity and Inclusion",
+          },
           content: {
             className: "block-content",
             children: "Networking, Music, Pizza",
@@ -645,6 +648,7 @@ export const Content120DataSource = {
           wrapper: { className: "block-content" },
           img: {
             children: awsLogo,
+            style: { width: "200px", height: "auto" },
           },
         },
       },

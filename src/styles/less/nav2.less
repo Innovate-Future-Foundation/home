@@ -12,7 +12,7 @@
   &-logo {
     display: inline-block;
     position: relative;
-    width: 150px;
+    width: 250px;
     line-height: 64px;
     & img {
       vertical-align: middle;
@@ -24,7 +24,7 @@
   }
   &-menu {
     float: right;
-    >.menu-item {
+    > .menu-item {
       line-height: 62px;
       display: inline-block;
       padding: 0 20px;
@@ -34,7 +34,7 @@
       height: 64px;
       border-bottom-color: transparent;
       position: relative;
-      transition: color .3s @ease-in-out, border .3s @ease-in-out;
+      transition: color 0.3s @ease-in-out, border 0.3s @ease-in-out;
       &.active,
       &:hover {
         color: @primary-color;
@@ -60,7 +60,7 @@
       width: ~"calc(100% + 48px)";
       opacity: 0;
       overflow: hidden;
-      transition: opacity .3s @ease-in-out;
+      transition: opacity 0.3s @ease-in-out;
       .menu-item {
         display: block;
         width: 100%;
@@ -69,7 +69,8 @@
         line-height: 40px;
         height: 40px;
         margin: 4px 0 8px;
-        &.active, &:hover {
+        &.active,
+        &:hover {
           border: none;
           background: @primary-color;
           color: @template-text-color-light;
@@ -90,7 +91,7 @@
         height: 2px;
         background: #fff;
         margin-top: 4px;
-        transition: transform .3s @ease-in-out, opacity .3s @ease-in-out;
+        transition: transform 0.3s @ease-in-out, opacity 0.3s @ease-in-out;
       }
       :first-child {
         margin-top: 0;

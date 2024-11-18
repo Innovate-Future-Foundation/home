@@ -58,8 +58,12 @@ const Content12: React.FC<Content12Props> = ({ dataSource }) => {
         return (
           <Col key={item.name} {...item}>
             <div {...item.children.wrapper}>
-              <span {...item.children.img}>
-                <img src={item.children.img.children} alt="img" />
+              <span>
+                <img
+                  src={item.children.img.children}
+                  alt="img"
+                  style={item.children.img.style}
+                />
               </span>
             </div>
           </Col>
