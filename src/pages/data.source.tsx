@@ -13,7 +13,9 @@ import speakerKris from "../assets/kris.jpg";
 import speakerJobpinai from "../assets/jobpin-logo.svg";
 import speakerDex from "../assets/dex.jpeg";
 import speakerKaifi from "../assets/kaifi.jpg";
-
+import logoJr from "../assets/jr_academy_logo.jpeg";
+import logoPremi from "../assets/1.png";
+import logoJobpin from "../assets/jobpin.png";
 
 export const Nav20DataSource = {
   isScrollLink: true,
@@ -199,7 +201,7 @@ export const Content80DataSource = {
           title: { className: "content8-title", children: "Mosleha Sadaf" },
           content: {
             className: "content8-content",
-            children: "@Supreme Court of NSW",
+            children: "Lawyer",
           },
         },
       },
@@ -393,7 +395,7 @@ export const Content90DataSource = {
           time: { className: "block-time", children: "16:30 - 17:00" },
           title: {
             className: "block-title",
-            children: "Doors Open, Signing in",
+            children: "Sign in",
           },
           content: { className: "block-content", children: "" },
         },
@@ -474,15 +476,15 @@ export const Content90DataSource = {
               "https://gw.alipayobjects.com/zos/rmsportal/agOOBdKEIJlQhfeYhHJc.svg",
           },
           name: { className: "block-name", children: "" },
-          post: { className: "block-post", children: "Moslena Sadaf" },
+          post: { className: "block-post", children: "Mosleha Sadaf" },
           time: { className: "block-time", children: "18:00 - 18:15" },
           title: {
             className: "block-title",
-            children: "Diversity Equity and Inclusion",
+            children: "Equality, diversity, and inclusion (EDI)",
           },
           content: {
             className: "block-content",
-            children: "Networking, Music, Pizza",
+            children: "",
           },
         },
       },
@@ -505,7 +507,7 @@ export const Content90DataSource = {
           },
           name: { className: "block-name", children: "Jason Ren" },
           post: { className: "block-post", children: "Business Development" },
-          time: { className: "block-time", children: "18:00 - 18:30" },
+          time: { className: "block-time", children: "18:15 - 18:30" },
           title: {
             className: "block-title",
             children: "AWS Startup Program Introduction",
@@ -535,7 +537,7 @@ export const Content90DataSource = {
           },
           name: { className: "block-name", children: "" },
           post: { className: "block-post", children: "AWS Start-up" },
-          time: { className: "block-time", children: "18:30 - 19:00" },
+          time: { className: "block-time", children: "18:30 - 18:45" },
           title: {
             className: "block-title",
             children: "AWS Startup Company Pitch",
@@ -566,7 +568,7 @@ export const Content90DataSource = {
           },
           name: {className: "block-name", children: ""},
           post: {className: "block-post", children: "Kaifi Hasibul"},
-          time: {className: "block-time", children: "18:30 - 19:00"},
+          time: {className: "block-time", children: "18:30 - 18:45"},
           title: {
             className: "block-title",
             children: "Agile methodology for developing in cloud technology ",
@@ -574,7 +576,7 @@ export const Content90DataSource = {
           content: {
             className: "block-content",
             children:
-              "agile methodologies to develop web applications within a cloud computing environment, allowing for rapid iteration, continuous feedback, and flexible adaptation to changing requirements",
+              "agile methodologies to develop web applications within a cloud computing environment, allowing for rapid iteration, continuous feedback.",
           },
         },
       },
@@ -801,7 +803,7 @@ export const Content120DataSource = {
           wrapper: { className: "block-content" },
           img: {
             children:
-              "https://gw.alipayobjects.com/zos/rmsportal/UcsyszzOabdCYDkoPPnM.svg",
+              logoJr,
           },
         },
       },
@@ -809,12 +811,12 @@ export const Content120DataSource = {
         name: "block4",
         className: "block",
         md: 8,
-        xs: 24,
+        xs: 10,
         children: {
           wrapper: { className: "block-content" },
           img: {
             children:
-              "https://gw.alipayobjects.com/zos/rmsportal/kRBeaICGexAmVjqBEqgw.svg",
+              logoPremi,
           },
         },
       },
@@ -827,7 +829,7 @@ export const Content120DataSource = {
           wrapper: { className: "block-content" },
           img: {
             children:
-              "https://gw.alipayobjects.com/zos/rmsportal/ftBIiyJcCHpHEioRvPsV.svg",
+              logoJobpin,
           },
         },
       },
